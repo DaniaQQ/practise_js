@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "figma",
+			"path": "..\\figma"
+		},
+		{
+			"name": "J.S",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "J.S"
+	}
+}
