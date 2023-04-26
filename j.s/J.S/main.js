@@ -1,26 +1,19 @@
-//function info(word) {
-//  console.log(word + "!");
-//}
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели', '');
 
-//function summa(a, b) {
-//  var res = a + b;
-//  info(res)
-// }
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actros: {},
+    ganros: [],
+    privat: false
+};
 
-//summa(5, 7);
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+    b = prompt('Нас сколько оциниете его?', ''),
+    c = prompt('Один из последних просмотренных фильмов?', ''),
+    d = prompt('Нас сколько оциниете его?', '');
 
-//function summa(arr) {
-//  var sum = 0;
-//  for (var i = 0; i < arr.length; i++)
-//     sum += arr[i];
+personalMovieDB.movies[a] = b;
+personalMovieDB.movies[c] = d;
 
-//  console.log(sum);
-//}
-
-//var array = [6, 8, 1];
-
-//summa(array);
-
-
-//var arr = [5, 7, 8];
-//console.log(arr.length);
+console.log(personalMovieDB);
